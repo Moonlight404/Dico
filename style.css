@@ -251,7 +251,7 @@ h3{
 }
 
 .yellow{
-    background: var(----sunflowers) !important;
+    background: var(--sunflowers) !important;
 }
 
 @media screen and (max-width: 900px){
