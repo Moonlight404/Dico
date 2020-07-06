@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Guia Canino</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Ubuntu&amp;display=swap">
+    <link rel='stylesheet' type='text/css' media='screen' href='./style.css'>
+</head>
+<body>
+    <div id="app">
+        <div class="header" :class="{colorWhite: !menuOpened}">
+            <div class="menu" @click="openMenu">
+                <i class="fas fa-bars"></i>
+                <span>MENU</span>
+            </div>
+            <div class="menu menuTransparent">
+                Guia Canino
+            </div>
+        </div>
+        <div class="left" :class="{menuOpened: menuOpened}">
+            <div class="wave"></div>
+            <div class="top">
+                <h1>  
+                    Guia Canino
+                    <div class="sublinhar"></div>
+                </h1>
+                <p>
+                    O melhor método para adestrar o seu cão, usando apenas 12 minutos do seu dia! 
+                </p>
+            </div>
+        </div>
+
+        <div class="center" :class="{menuOpenedNot: !menuOpened}">
+            <div class="repeat"></div>
+            <div class="texto">
+                <div class="padding-20">
+                <h1>
+                    Guia Canino
+                    <div class="sublinhar white"></div>
+                </h1>
+                <br>
+                <h2>
+                    O melhor método para adestrar o seu cão, usando apenas 12 minutos do seu dia! 
+                </h2>
+                <h3>
+                    … isso mesmo, você vai precisar de 12 a 15 minutos para adestrar seu amado cachorrinho, mesmo sem saber nada e não ter nenhuma experiencia com adestramento, vai precisar apenas seguir o guia e aplicar.
+                </h3>
+                <br>
+                <h3>Com esse curso seu cachorrinho vai se tornar mais sociável, dócil e amável!
+                </h3>
+                <br>
+                <h3>
+                    Tudo isso por menos de 5 reais por SEMANA
+                </h3>
+                <div class="video-container">
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/0YF8vecQWYs" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </div>
+                <h1 class="light">
+                    Sim, eu quero ter meu cão adestrado!
+                </h1>
+                <h2>
+                    Porque adestrar o meu cão e por que esse guia é para mim?
+                </h2>
+                <h3>
+                    Com certeza, um dos maiores benefícios em adestrar o seu animal é evitar situações incômodas como fazer xixi fora do lugar indicado, ou passear puxando o dono pela coleira, destruir os móveis, morder visitas, destruir suas plantas entre várias outros probleminhas que são resolvidos facilmente com o adestramento. Além disso, o processo de adestramento aprofunda o laço de amizade entre o dono e o animal, uma vez que melhora a comunicação e entendimento corporal entre ambos.
+                </h3>
+                <h3>
+                    Esse guia é pra você que quer ter um cão super educado, é pra você que quer uma melhor relação entre vocês  e é pra você que não quer pagar mais de 600 reais para um adestrador que demora muito para concluir o adestramento!
+                </h3>
+                <h3>
+                    Com o nosso guia você não vai precisar gastar nem a metade disso e vai ser  no conforto do seu lar com tudo explicado de maneira simples e descomplicada!
+                </h3>
+                <h1 class="light">
+                    Dentro do guia você vai aprender:
+                </h1>
+                <div class="table">
+                    <li v-for="i in aprender">
+                        {{ i }}
+                    </li>
+                    <br>
+                    <h3>           
+                Além de tudo isso você vai ter 3 bônus.
+                Receitas caninas De 49,00 por 0
+                Passos para deixar seu cão feliz. De 57,00 por 0
+                Com essas dicas seu cão vai viver muito mais. De 197 por 0.
+                    </h3>
+                    <h4>
+                        … e ainda vai ter suporte exclusivo e coletivo no whatsapp, qualquer dúvida vai ser tudo esclarecido no whatsapp.
+                        Quem adquiriu nosso curso nos deram esse feedback.
+                    </h4>
+                </div>
+                <br>
+                <h1>
+                    Depoimentos.
+                    <div class="sublinhar white"></div>
+                </h1>
+                <br>
+                <div class="table">
+                    <h3>
+                        A decisão é sua, querer continuar com os mesmos problemas de moveis destruídos, latidos perturbantes, necessidades em locais errados, puxando a coleira na hora do passeio, rosnando pra você entre vários outros problemas, ou adquirir o guia e acabar de vez com todos os problemas e ainda melhorar a relação entre ambos.
+                        Ainda com dúvidas? Não se preocupe, te dou 7 dias para testar e se não gostar pode pegar seu dinheiro de volta!
+                    </h3>
+                </div>
+                <br>
+                <br>
+                <h1 class="light">
+                    Adquirir guia com 50% de desconto.
+                    <li style="list-style: none; color: #fff;">
+                        1 lote: 67 reais
+                        <br>
+                        2 lote: 127 reais
+                        <br>
+                        3 lote: 247 reais
+                        <br>
+                        4 lote: 627 reais
+                    </li>
+                </h1>
+                <div class="table">
+                    <h3>
+                        você só tem a ganhar!
+                    </h3>
+                </div>
+            </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/vue@2.6.11"></script>
+    <script src='./main.js'></script>
+</body>
+</html>
