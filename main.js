@@ -12,7 +12,7 @@ const app = new Vue({
             'Adestramento avançado.',
             'Cão velho aprende? Como adestrar?'
         ],
-        menuOpened: true
+        menuOpened: false
     },
     methods: {
         openMenu(){
