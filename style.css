@@ -255,8 +255,8 @@ h3{
         width: 80%;
     }
     .menuOpenedNot .texto{
-        left: 68px;
-        width: calc(100% - 68px) !important;
+        left: 42px;
+        width: calc(100% - 40px) !important;
     }
     .texto{
         width: 100% !important;
