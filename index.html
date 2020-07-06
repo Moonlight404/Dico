@@ -12,7 +12,7 @@
 <body>
     <div id="app">
         <div class="header" :class="{colorWhite: !menuOpened}">
-            <div class="menu" @click="openMenu">
+            <div class="menu" :class="{yellow: menuOpened}" @click="openMenu">
                 <i class="fas fa-bars"></i>
                 <span>MENU</span>
             </div>
