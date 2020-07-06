@@ -250,6 +250,10 @@ h3{
     width: calc(100% - 68px);
 }
 
+.yellow{
+    background: var(----sunflowers) !important;
+}
+
 @media screen and (max-width: 900px){
     .left{
         z-index: 100;
