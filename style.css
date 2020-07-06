@@ -48,7 +48,6 @@ body{
     position: fixed;
     height: 100%;
     color: var(--evening);
-    animation: leftFull 1s;
     transform: translate(-80%);
     transition: 1s;
     z-index: 1000;
