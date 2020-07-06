@@ -37,7 +37,9 @@ body{
 
 .header{
     z-index: 5000;
-    position: relative;
+    background: #00000057;
+    width: 100%;
+    position: fixed;
 }
 
 .left{
@@ -161,6 +163,7 @@ span,h1,h2,p{
 
 .menuTransparent{
     background: transparent;
+    color: #fff;
 }
 
 @keyframes outFade{
