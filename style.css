@@ -48,9 +48,9 @@ body{
     position: fixed;
     height: 100%;
     color: var(--evening);
-    transform: translate(-80%);
     transition: 1s;
     z-index: 1000;
+    transform: translate(-440px);
 }
 
 .menuOpened{
@@ -258,10 +258,16 @@ h3{
     .left{
         z-index: 100;
         width: 80%;
+        transform: translate(-270px);
+    }
+    .menuOpened{
+        z-index: 100;
+        width: 80%;
+        transform: translate(0px) !important;
     }
     .menuOpenedNot .texto{
-        left: 42px;
-        width: calc(100% - 40px) !important;
+        width: calc(100% - 10px) !important;
+        left: 10px;
     }
     .texto{
         width: 100% !important;
