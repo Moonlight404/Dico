@@ -254,7 +254,7 @@ h3{
     background: var(--sunflowers) !important;
 }
 
-@media screen and (max-width: 900px){
+@media screen and (max-width: 598px){
     .left{
         z-index: 100;
         width: 80%;
